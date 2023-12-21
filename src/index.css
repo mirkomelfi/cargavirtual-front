@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif    ;
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif    ;
+    font-size: 50px;
+}
+
+.titulos{
+    font-size: 20px;
+    color: black;
+}
+
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    height:fit-content;
+    width: 70%;
+    margin: 20px;
+    background-color: rgb(110, 137, 137);
+}
+
+.cardInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+    height: 200px;
+    width: 40%;
+    background-color:rgb(72, 72, 77);
+}
+
+.card{
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+    padding: 20px;
+    margin: 30px;
+    height: 200px;
+    width: 40%;
+    text-align: center;
+    max-width: 250px;
+    display: inline-block;
+
+}
+    .card .card-image{
+        
+    max-width: 60%;
+    height: auto;
+    border-radius:50%;
+    margin-bottom: 10px;
+    }
+        
+    
+    .card .card-title{
+        font-family: Arial, sans-serif;
+        
+    font-size: 30px;
+
+        margin: 0;
+        color: hsl(0, 0%, 20%);
+
+    }
+  
+        
+    .card .card-text{
+        font-family: Arial, sans-serif;
+        color: hsl(0, 0%, 30%);
+
+    }
