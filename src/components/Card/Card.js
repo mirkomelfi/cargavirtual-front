@@ -8,7 +8,7 @@ const Card =({product})=>{
         <div className="card">
             
             <h1 className="card-title">{product.name}</h1>
-            <img className = "card-image" src={product} alt="img" />
+            <img className = "card-image" src={product.img} alt="img" />
             <p className="card-text">{product.description}</p>
         </div>
                 

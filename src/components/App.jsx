@@ -7,14 +7,12 @@ export const App = () => {
   return (
     <>
       <BrowserRouter>
-        <Navbar/>
         <Routes>
           {//<Route path="/"element={<Album />}/> 
           }
-          <Route path="/"element={<CardContainer />}/> 
+          <Route path="/"element={<Home />}/> 
           <Route path='*' element={<h1>404 Not Found</h1>} />
         </Routes>
-        <Footer/>
       </BrowserRouter>
 
     </>
