@@ -20,6 +20,7 @@ const Footer = () =>{
                 
                 
             </div>
+            <p>Contacto únicamente por Whatsapp</p>
         </footer>
     );
   }

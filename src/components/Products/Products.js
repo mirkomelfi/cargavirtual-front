@@ -8,7 +8,7 @@ export const products=[
 {
     id:1,
     name:"Recarga Sube",
-    description:"Lorem ipsum dolor sit amet consectetur adipiscing elit tellus odio id phasellus, dui sodales nulla viverra ad dis massa ",
+    description:"Recarga electrónica para Tarjetas SUBE",
     img:recargasube
 
 },
@@ -16,28 +16,28 @@ export const products=[
 {
     id:2,
     name:"Recarga Virtual",
-    description:"Recarga celular con cualquier operadora",
+    description:"Recarga celular a todas las operadoras",
     img:recargacel
 
 },
 {
     id:3,
     name:"Direct TV Prepago",
-    description:"Lorem ipsum dolor sit amet consectetur adipiscing elit tellus odio id phasellus, dui sodales nulla viverra ad dis massa ",
+    description:"Recarga Direct TV Prepago",
     img:directtv
     
 },    
 {
     id:4,
     name:"Antina Prepago",
-    description:"Lorem ipsum dolor sit amet consectetur adipiscing elit tellus odio id phasellus, dui sodales nulla viverra ad dis massa ",
+    description:"Recarga Antina Prepago",
     img:antina
     
 },    
 {
     id:5,
     name:"Tarjeta SUBE",
-    description:"Lorem ipsum dolor sit amet consectetur adipiscing elit tellus odio id phasellus, dui sodales nulla viverra ad dis massa ",
+    description:"Venta de Tarjetas SUBE",
     img:sube
     
 }

@@ -2,19 +2,16 @@ import React, { useRef } from "react";
 import {Link} from "react-router-dom";
 
 
-const Navbar = ({opt,cont}) =>{
+const Navbar = () =>{
 
-    const scrollTo=(elementRef)=>{
-        window.scrollTo({
-            top:elementRef.current.offsetTop,
-            behavior:"smooth"
-        })
-    }
-    console.log(window)
     return (
         <header>
-            <div>
+            <div className="navbarContainer">
             <h1>Melger - Carga virtual</h1>
+            
+            <div>
+            <i class="fa-brands fa-whatsapp"></i><a href="https://wa.me/+5491170180090"> +54  9  11 - 7018 - 0090</a>
+            </div>
             {/*<ul>
             <li className="link" >Servicios</li>
             <li className="link"  onClick={()=>opt.current?.scrollIntoView({behavior:"smooth"})}>Modalidades</li>

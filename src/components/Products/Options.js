@@ -14,14 +14,15 @@ export const options=[
 {
     id:2,
     name:"POSNET",
-    description:"Con o sin internet",
+    description:`Con o sin internet //  \n
+    Equipos en comodato`,
     img:posnet
 
 },
 {
     id:3,
     name:"CELULAR",
-    description:"Lorem ipsum dolor sit amet consectetur adipiscing elit tellus odio id phasellus, dui sodales nulla viverra ad dis massa ",
+    description:"Se requiere descarga de la APP",
     img:celular
     
 },    
