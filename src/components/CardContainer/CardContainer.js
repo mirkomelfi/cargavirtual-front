@@ -1,23 +1,14 @@
-
-//import imgUsuario from '../../img/user.png'
-
-import { useEffect, useState } from "react"
 import { Card } from "../Card/Card"
-import { products } from "../Products/Products"
-const CardContainer =()=>{
-    console.log(products)
-    const [productList,setProductList]=useState([])
 
-    useEffect(()=>{
-        setProductList(products)
-    },[])
-
+const CardContainer =({title,itemList})=>{
+    
     return(
-        
-        <div className="cardContainer">
-             {products.map(product => <Card key={product.id} product={product} />)}
-        </div>
-                
+        <div className="infoContainer" id="modes">
+            <h2>{title}</h2>
+            <div className="cardContainer">
+                {itemList.map(item => <Card key={item.id} item={item} />)}
+            </div>
+        </div>   
         
     )
 }

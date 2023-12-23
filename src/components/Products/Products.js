@@ -1,29 +1,45 @@
 import sube from "../../sube.jpeg"
-import posnet from "../../posnet.jpeg"
-import posnet1 from "../../posnet1.jpeg"
+import recargasube from "../../recargasube.png"
+import recargacel from "../../recargacel.png"
+import directtv from "../../directtv.jpeg"
+import antina from "../../antina.png"
 
 export const products=[
 {
     id:1,
-    name:"Recarga sube",
+    name:"Recarga Sube",
     description:"Lorem ipsum dolor sit amet consectetur adipiscing elit tellus odio id phasellus, dui sodales nulla viverra ad dis massa ",
-    img:sube
+    img:recargasube
 
 },
 
 {
     id:2,
-    name:"Recarga celular",
-    description:"Lorem ipsum dolor sit amet consectetur adipiscing elit tellus odio id phasellus, dui sodales nulla viverra ad dis massa ",
-    img:posnet
+    name:"Recarga Virtual",
+    description:"Recarga celular con cualquier operadora",
+    img:recargacel
 
 },
 {
     id:3,
-    name:"Recarga X",
+    name:"Direct TV Prepago",
     description:"Lorem ipsum dolor sit amet consectetur adipiscing elit tellus odio id phasellus, dui sodales nulla viverra ad dis massa ",
-    img:posnet1
+    img:directtv
     
 },    
+{
+    id:4,
+    name:"Antina Prepago",
+    description:"Lorem ipsum dolor sit amet consectetur adipiscing elit tellus odio id phasellus, dui sodales nulla viverra ad dis massa ",
+    img:antina
+    
+},    
+{
+    id:5,
+    name:"Tarjeta SUBE",
+    description:"Lorem ipsum dolor sit amet consectetur adipiscing elit tellus odio id phasellus, dui sodales nulla viverra ad dis massa ",
+    img:sube
+    
+}
 
 ]

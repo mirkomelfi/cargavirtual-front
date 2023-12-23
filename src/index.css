@@ -4,26 +4,46 @@ body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif    ;
     height: 100%;
     width: 100%;
-    background-color: none;
+    background-color: rgb(41,39,39);
 }
 
 header{
     margin-top: 15px;
+    color:rgb(206, 43, 43);
+}
+
+a{
+    color: white;
+}
+
+i{
+    height: 30px;
+    width: 30px;
 }
 
 footer{
     display: flex;
     flex-direction: column;
     text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif    ;
 }
 
 h1{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif    ;
     font-size: 50px;
-
 }
+
+h2{
+    
+    color: black;
+    font-size: 42px;
+}
+
 h6{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif    ;
     font-size: 25px;
 }
 
@@ -31,11 +51,35 @@ h6{
     font-size: 20px;
     color: black;
 }
+.link{
+    text-decoration: none;
+    display: inline;
+    padding: 20px 20px;
+    font-weight: 700;
+    font-size: large;
+    cursor: pointer;
+}
 
 .homeContainer{
     display: flex;
     flex-direction: column;
     align-items: center; 
+}
+
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:fit-content;
+    width: 100%;
+    margin: 20px;
+    
+    background-color: rgb(165, 45, 45);
+}
+
+.infoContainer h2{
+    padding-top: 35px;
 }
 
 .footerInfo{
@@ -52,7 +96,8 @@ h6{
     height:fit-content;
     width: 100%;
     margin: 20px;
-    background-color: rgb(110, 137, 137);
+    
+    background-color: rgb(165, 45, 45);
 }
 
 .cardInfo{
@@ -68,7 +113,7 @@ h6{
 }
 
 .card{
-    border: 1px solid hsl(0, 0%, 80%);
+    border: 3px solid hsl(0, 73%, 48%);
     border-radius: 10px;
     box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
     padding: 20px;
@@ -82,10 +127,11 @@ h6{
 }
     .card .card-image{
         
-    max-width: 60%;
+    max-width: 90%;
     height: auto;
     border-radius:50%;
     margin-bottom: 10px;
+    padding: 15px;
     }
         
     
@@ -105,3 +151,102 @@ h6{
         color: hsl(0, 0%, 30%);
 
     }
+
+
+
+
+
+    #navigation {
+        font-family: "BebasNeueRegular",sans-serif;
+        letter-spacing: 0.2pt;
+        text-transform: uppercase;
+        font-size: 2.3em;
+        text-shadow: none;
+        float: right;
+        margin-top: 44px;
+    }
+
+   /* 
+
+#navigation ul li {
+    margin: 0 12px;
+}
+#navigation ul, #navigation li {
+    margin: 0;
+}
+.menu li {
+    float: left;
+    position: relative;
+}
+li{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    
+}
+.menu {
+    line-height: 1.0;
+}
+.menu, .sf-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul {
+    list-style: none;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+#navigation .menu {
+    display: block;
+    width: 100%;
+    float: left;
+}
+#navigation ul, #navigation li {
+    margin: 0;
+}
+.menu {
+    line-height: 1.0;
+}
+.menu, .sf-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul {
+    list-style: none;
+}
+nav ul, nav li {
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}*/
